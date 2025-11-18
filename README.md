@@ -1,123 +1,116 @@
-Round Robin CPU Scheduling Simulator (GUI + Animation)
+🎯 Round Robin CPU Scheduler – Interactive GUI Simulator
+👩‍🎓 Student: Diya Rani
+🆔 Roll No: DYD-23-05
+🏫 Department: SIIEDC (DYD)
+👩‍🏫 Mentor: Ms. Aparna Sharma
+📅 Year: 2025
+⭐ Project Overview
 
-This project is a visual and interactive simulation of the Round Robin CPU Scheduling Algorithm.
-It includes:
+This project is an interactive and visually clear simulation of the Round Robin CPU Scheduling Algorithm.
+It uses a Python-based GUI to help students understand how Round Robin works by showing:
 
-✔ Full GUI using Tkinter
-✔ Animated CPU burst execution
-✔ Cartoon-style process characters
-✔ Gantt Chart generation using Matplotlib
-✔ Auto-generated Waiting Time, Turnaround Time, Completion Time
-✔ Beginner-friendly educational interface
+how processes enter the ready queue
 
-🚀 Features
-1. Beautiful Light-Themed GUI
+how CPU time is shared equally when preemption happens
 
-Cartoon avatars for each process
+how waiting & turnaround times are calculated
 
-Smooth CPU race animation
+The focus is on clarity, learning, and easy visualization, not just output.
 
-Clean parameter input section
+🖥️ Key Features
 
-Tooltips explaining each concept
+✨ Simple & Clean GUI made using Tkinter
+🌀 Step-by-step execution animation
+📦 Ready Queue visualization
+⏱️ Custom Time Quantum input
+📊 Auto-generated Gantt Chart using Matplotlib
+📘 Table of WT, TAT, CT for each process
+📉 Average waiting & turnaround time displayed automatically
+🔄 Fair CPU sharing simulation (true RR behavior)
 
-2. Complete RR Simulation
+🧠 Understanding Round Robin (RR) – In Simple Words
 
-Correct Round Robin execution
+Round Robin is a preemptive scheduling technique.
 
-Time Quantum based switching
+Every process gets a fixed time quantum ⏳.
+If it still needs more time after that, it goes back to the queue and waits for its next turn.
 
-Dynamic ready queue handling
+💡 Why it’s important:
 
-Accurate CPU timing
+Ensures fairness
 
-3. Detailed Results
+Eliminates starvation
 
-Table of:
+Ideal for time-sharing systems
 
-Waiting Time
+Used widely in modern OS designs
 
-Turnaround Time
+🚀 How to Run the Project
+1️⃣ Run the Python File
+Roud Robbin Project.ipynb
 
-Completion Time
+2️⃣ Enter Process Details
 
-Average WT and TAT
+Arrival Time
 
-Auto-generated Gantt Chart
+Burst Time
 
-🧠 Concepts Used
+Time Quantum
 
-Round Robin Scheduling
+3️⃣ Click “Simulate”
 
-Context Switching
+You will see:
 
-Arrival Time Handling
+CPU allocation steps
 
-Ready Queue (FCFS order)
+Ready queue changing live
 
-CPU Burst Execution
+Final Gantt chart
 
-Performance Calculations
+Detailed result table
 
-🛠 Technologies & Libraries Used
-1. Tkinter
+🧰 Technologies & Libraries Used
 
-Used for GUI (buttons, labels, frames).
+🟦 Python – Main programming language
+🪟 Tkinter – GUI controls, buttons, tables, labels
+📊 Matplotlib – For generating Gantt chart
+🕒 Time module – For animation timing
 
-2. Matplotlib
+📊 What Output You Get
 
-Used to create the Gantt Chart.
+✔ Gantt Chart
+✔ Ready Queue logs
+✔ Process execution timeline
+✔ Completion Time
+✔ Waiting Time
+✔ Turnaround Time
+✔ Average WT & TAT
 
-3. Collections (deque)
+All presented in a clear GUI format.
 
-Used for implementing the Ready Queue.
+🎓 What I Learned
 
-4. Time module
+Through this project, I understood:
 
-Used for animation delays.
+🔹 How preemption works in scheduling
+🔹 How Round Robin shares CPU time
+🔹 How to implement scheduling logic in Python
+🔹 How to build a GUI using Tkinter
+🔹 How to plot charts programmatically
+🔹 How to break an algorithm into visual steps
 
-💻 How to Run
-python rr_fun_light_theme_final.py
+This project improved both my OS concepts and Python GUI skills.
 
-📊 Output Screens
+🔮 Future Improvements
 
-Animated CPU race
+Some ideas I may add later:
 
-Gantt chart visual
+🌈 Dark/Light theme switch
+📂 Export results as PDF or CSV
+🎮 More animations
+🧮 Add other algorithms: SJF, Priority, FCFS
+📱 Mobile-friendly version in HTML
 
-Results table
+🙏 Acknowledgement
 
-Informational popups
-
-🔧 Future Improvements
-
-Dark & neon themes
-
-Add more scheduling algorithms (SJF, FCFS, Priority)
-
-Export results to PDF
-
-Add sound effects for animation
-
-Create a web version
-
-📝 My Efforts & Contribution
-
-Designed GUI layout
-
-Implemented RR logic
-
-Created animation system
-
-Added info popups + learning content
-
-Built Gantt chart integration
-
-Improved user experience
-
-Explained OS concepts
-
-📚 Conclusion
-
-This project successfully demonstrates the working of Round Robin Scheduling Algorithm using a fun, visual and interactive interface.
-It serves as an excellent educational tool and provides both theoretical understanding and practical simulation.
+I am grateful to Ms. Aparna Sharma mam for guiding me throughout this project and helping me understand scheduling concepts in depth.
